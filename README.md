@@ -12,3 +12,9 @@
             - 終了タグの直前にcssのスタイリングを追加
         - 要素の追加は`content`プロパティで
         - 同じ要素を複数の箇所に追加したいときに擬似要素が有効（擬似要素を変更するだけで、全ての該当htmlに変更が反映されるので）
+    - querySelector('hogehoge')
+        - あるクラスに一致する最初の要素を探索する
+        - [MDN](https://developer.mozilla.org/ja/docs/Web/API/Document/querySelector)
+    - createElement('hogehoge')
+        - 指定したhtml要素（今回はhogehoge）を追加
+    - 正解か不正解かの判定方法（ifによる分岐の条件指定）正解だった
