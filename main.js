@@ -6,7 +6,7 @@
     //section要素を追加
     const section = document.createElement("section");
     const h2 = document.createElement("h2");
-    h2.textContent = quiz[0]; //1の正解は？
+    h2.textContent = quiz[0]; //__の正解は？
 
     const ul = document.createElement("ul");
       for (let i = 0; i < 3; i++){
@@ -23,7 +23,7 @@
               ul.appendChild(li);
       }
 
-    section.appendChild(h2);//__の選択肢は？の表示
+    section.appendChild(h2);//__の正解は？の表示
     section.appendChild(ul);//選択肢の表示
     main.appendChild(section);
   };
